@@ -12,5 +12,4 @@ write-host 'AIB Customization: TeamViewer exe installer downloaded'
 
 Start-Process -FilePath $teamviewerInstaller -ArgumentList "/S"
 
-
 write-host 'AIB Customization: TeamViewer installation completed'

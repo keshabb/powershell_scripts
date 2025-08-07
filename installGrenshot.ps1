@@ -1,4 +1,4 @@
-write-host 'AIB Customization: Downloading Greenshot MSI installer'
+write-host 'AIB Customization: Downloading Greenshot exe installer'
 
 # Define Greenshot MSI installer URL and file name
 $greenshotInstallerURL = 'https://github.com/greenshot/greenshot/releases/download/v1.3.296/Greenshot-INSTALLER-1.3.296-RELEASE.exe'

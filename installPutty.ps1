@@ -1,8 +1,9 @@
+$ProgressPreference = 'SilentlyContinue'
+
 write-host 'AIB Customization: Downloading PuTTY installer'
 
 # Define the local path to save the installer
 $installerPath = 'C:\Windows\Temp\putty-64bit-installer.msi'
-
 
 # Define PuTTY installer URL and file name
 $puttyInstallerURL = 'https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-installer.msi'

@@ -1,8 +1,8 @@
+$ProgressPreference = 'SilentlyContinue'
 write-host 'AIB Customization: Downloading 7-Zip installer'
 
 # Define the local path to save the installer
 $installerPath = 'C:\Windows\Temp\7z2301-x64.msi'
-
 
 # Define 7-Zip installer URL and file name
 $sevenzipInstallerURL = 'https://www.7-zip.org/a/7z2301-x64.msi'

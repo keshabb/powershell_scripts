@@ -1,5 +1,5 @@
+$ProgressPreference = 'SilentlyContinue'
 write-host 'AIB Customization: Downloading Google Chrome installer'
-
 
 # Define Chrome installer URL and file name
 $chromeInstallerURL = 'https://dl.google.com/chrome/install/latest/chrome_installer.exe'
