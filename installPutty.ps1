@@ -13,6 +13,6 @@ Invoke-WebRequest -Uri $puttyInstallerURL -OutFile $installerPath
 write-host 'AIB Customization: PuTTY installer downloaded'
 
 # Install PuTTY silently
-Start-Process msiexec.exe -ArgumentList "/i `"$installerPath`" /quiet /norestart"
+Start-Process msiexec.exe -ArgumentList "/i `"$installerPath`" /quiet /norestart" -Wait
 
 Write-Host "AIB Customization: PuttY installed successfully"
